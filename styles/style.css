@@ -1,0 +1,19 @@
+
+body{
+    font-family: 'Poppins';
+}
+.logo{
+    font:var(--primary-font);
+    font-size: 22px;
+}
+
+h1{
+    font-family: 'Poppins';
+}
+
+.text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+}
