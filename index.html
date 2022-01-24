@@ -116,7 +116,26 @@
                     <p class="w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ab quia iusto
                         sequi omnis quam magnam possimus qui perferendis corporis?</p>
                     <div class="btn btn-primary">Visit Album</div>
+                    <!-- toast -->
+                    <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+                    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="toast-header">
+                                <img src="..." class="rounded me-2" alt="...">
+                                <strong class="me-auto">Bootstrap</strong>
+                                <small>11 mins ago</small>
+                                <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="toast-body">
+                                Hello, world! This is a toast message.
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
             </div>
         </section>
 
@@ -186,47 +205,6 @@
             </div>
         </section>
 
-        <!-- new Feedback -->
-        <!-- cards -->
-        <section>
-            <div class="row row-cols-1 row-cols-lg-3 g-4 container my-5">
-                <div class="col">
-                    <div class="card">
-                        <div>
-                            <img class="img-fluid" src="images/person 1.png" class="card-img-top" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <div>
-                                <p class="card-text">Enjoyed the Premiere event. Such a great variety of
-                                    educational classes enjoyed the vendors all around awesome and expensive</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural
-                                lead-in to additional content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <!-- Feedback section -->
         <h1 class="text-center my-5 fw-bold">Recent Feedback</h1>
         <section class="container" id="">
@@ -360,7 +338,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-s-12">
-                    <img class="p-3 3" src="images/people.png" alt="">
+                    <img class="img-fluid" src="images/people.png" alt="">
                 </div>
             </div>
         </section>
